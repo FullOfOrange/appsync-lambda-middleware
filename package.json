@@ -1,0 +1,11 @@
+{
+  "name": "appsync-lambda-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FullOfOrange/appsync-lambda-middleware.git",
+  "author": "FullOfOrange <foorgdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-lambda": "^1.0.6"
+  }
+}
