@@ -1,0 +1,31 @@
+// copy from frontend eslint config
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    },
+    "plugins": ["@typescript-eslint","prettier"],
+    "extends": [
+      "plugin:import/typescript",
+      "plugin:@typescript-eslint/recommended",
+      "prettier/@typescript-eslint",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "@typescript-eslint/no-explicit-any": "warn",
+      "prettier/prettier":"error"
+    },
+    "overrides": [
+      {
+        "files": ["*.ts"],
+        "rules": {
+          "@typescript-eslint/no-var-requires": 2
+        }
+      }
+    ],
+  }
+  
